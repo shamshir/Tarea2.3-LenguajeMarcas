@@ -20,14 +20,14 @@ El indicador de velocidad ha sido modificado ligeramente. En primer lugar, media
 
 En el caso del móvil, se han creado tres imágenes triangulares inspirandas en la proporcionada en el proyecto. Se trata de tres imágenes con fondo transparente que irán intercambiandose a medida que aumente/disminuya la velocidad.
 #### Botones
-Los botones del juego han sido creados de nuevo para garantizar una estética global en torno al color azul. Los símbolos dentro de los botones se han representado en naranja, debido a que es el color complementario del azul, resultado de mezclar rojo y amarillo.
+Los botones del juego (play/pause y menú) han sido creados de nuevo para garantizar una estética global en torno al color azul. Los símbolos dentro de los botones se han representado en naranja, debido a que es el color complementario del azul, resultado de mezclar rojo y amarillo.
 Se ha incrustado el símbolo de play y de pause en la imagen lisa que simula un planeta. De esta forma, para cambiar entre pausa y play, habrá que cambiar toda la imagen.
 
-Los colores de ambos botones se han alternado para darles contraste y diferenciarlos más a niverl visual.
+Los colores de ambos botones se han alternado para darles contraste y diferenciarlos más a nivel visual.
 #### Menú
 El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y "Dificultad". Estas opciones se han especificado a posteriori ja que el proyecto no especifica cuáles deben ser.
 
-Se ha desestimado la propuesta de intriducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
+Se ha desestimado la propuesta de introducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
 ### Localización de Elementos
 #### Versión Escritorio
 #### Versión Móvil
