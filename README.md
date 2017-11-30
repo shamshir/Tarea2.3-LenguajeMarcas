@@ -10,7 +10,7 @@ El presente repositorio cuenta con tres ramas distintas. La primera, *master*, e
 [Visualizar la página sin menú (rama *noMenu*)](https://rawgit.com/shamshir/Tarea2.3-LenguajeMarcas/noMenu/index.html)
 
 ## Funcionamiento
-Para poder ver cómo cambian los indicadores de velocidad, fuel y altura tanto en la versión de escritorio como en la versión de móvil, seguir las siguientes instrucciones. Cabe destacar que, en la versión para móvil, la velocidad se expresará intercambiando tres imágenes distintas, por lo que actualmente (sin javascript) no es posible cambiar entre esas imágenes.
+Para poder ver cómo cambian los indicadores de velocidad, fuel y altura tanto en la versión de escritorio como en la versión de móvil, se pueden seguir las siguientes instrucciones. Cabe destacar que, en la versión para móvil, la velocidad se expresará intercambiando tres imágenes distintas, por lo que actualmente (sin javascript) no es posible cambiar entre esas imágenes.
 
 En escritorio:
 * Velocidad > Modificar los grados de rotación de la imagen que se encuentra en el div con Id "aguja"
@@ -26,6 +26,12 @@ En móvil:
 ### Versión Móvil
 ## Cambios respecto al Proyecto de partida
 Se han realizado diversos cambios respecto al proyecto de base, proporcionado por un compañero, y éstos se recogen en los siguientes apartados.
+### Menú
+El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y Dificultad (esta última dividida en fácil o difícil). Estas opciones se han especificado a posteriori ja que el proyecto no especifica cuáles deben ser.
+
+Se ha desestimado la propuesta de introducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
+
+Los enlaces de "About" e "Instrucciones", enlazan otras dos páginas en las que solo se muestra texto informativo acerca del juego. Ya que todavía desconocemos cómo funcionará, ambas páginas están llenas de texto sin sentido.
 ### Imágenes
 Las siguientes imágenes han sufrido cambios estéticos o han sido creadas de nuevo desde el principio. Después de la creación de las nuevas imágenes, éstas han sido optimizadas utilizando la herramienta Online [TinyPNG](https://tinypng.com/).
 #### Fondo
@@ -45,7 +51,3 @@ Los botones del juego (play/pause y menú) han sido creados de nuevo para garant
 Se ha incrustado el símbolo de play y de pause en la imagen lisa que simula un planeta. De esta forma, para cambiar entre pausa y play, habrá que cambiar toda la imagen.
 
 Los colores de ambos botones se han alternado para darles contraste y diferenciarlos más a nivel visual.
-#### Menú
-El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y "Dificultad". Estas opciones se han especificado a posteriori ja que el proyecto no especifica cuáles deben ser.
-
-Se ha desestimado la propuesta de introducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
