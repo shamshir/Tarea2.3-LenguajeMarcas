@@ -2,7 +2,10 @@
 La presente tarea para la asignatura *Lenguaje de Marcas* consiste en la construcción de una página estática para el proyecto *Lunar Lander*, tomando como referencia el proyecto de otro compañero de clase.
 
 En este caso, el punto de partida es este [proyecto](https://github.com/shamshir/Lunar_Lander).
-## Enlace a RawGit
+## Visualización y funcionamiento
+## Localización de Elementos
+### Versión Escritorio
+### Versión Móvil
 ## Cambios respecto al Proyecto de partida
 Se han realizado diversos cambios respecto al proyecto de base, proporcionado por un compañero, y éstos se recogen en los siguientes apartados.
 ### Imágenes
@@ -28,6 +31,3 @@ Los colores de ambos botones se han alternado para darles contraste y diferencia
 El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y "Dificultad". Estas opciones se han especificado a posteriori ja que el proyecto no especifica cuáles deben ser.
 
 Se ha desestimado la propuesta de introducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
-### Localización de Elementos
-#### Versión Escritorio
-#### Versión Móvil
