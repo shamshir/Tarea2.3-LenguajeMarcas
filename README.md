@@ -29,7 +29,11 @@ Asímismo, los botones de play/pause y de restart, también ocupan el mismo luga
 Las opciones "About" e "Instrucciones" del menú, enlazan dos páginas de información en ambas versiones. Mientras que en la versión de escritorio la página carece de scroll ya que el texto cabe sin problema, en la versión para móvil se ha aplicado un scroll automático para poder ver correctamente todo el texto en dispositivos de menos resolución. Además, el botón de retorno al menú, que podemos encontrar al final de ambas páginas de texto, tiene un tamaño más grande en la versión de móvil, para facilitar su utilización. Cabe destacar que en ambas versiones está visible el botón de play/pause que, en la versión con javacript de este proyecto, nos devolverá al juego, en vez de al menú.
 
 ### Indicadores Escritorio
+Los indicadores de velocidad, fuel y altura en la versión de escritorio están contenidos en un div que ocupa la parte izquierda de la pantalla. Los indicadores de fuel y altura comparten espacio horizontal, ocupando cada uno la mitad del div. Encima de ambos, encontramos el indicador de velocidad, compuesto por dos imágenes distintas: la imágen del velocímetro y la imagen de la aguja, esta última ya preparada para poder rotarse.
+
+Cabe destacar que los indicadores de fuel y altura están constituidos por un div que engloba la imagen correpondiente y otro div detrás que "llena" o "vacía" el indicador.
 ### Indicadores Móvil
+Los indicadores de velocidad, fuel y altura en la versión de móvil también están contenidos en un div que ocupa la parte izquierda de la pantalla. En este caso, no obstante, ningún indicador comparte espacio horizontal y están situados, de arriba a abajo: fuel, velocidad y altura. Mientras que los indicadores de altura y fuel funcionan y están construidos de igual forma que en la versión de escritorio (salvo que el indicador de fuel se encuentra horizontal y no vertical), el indicador de velocidad está compuesto por una imagen de fondo transparente que irá alternandose entre tres imágenes distintas, en función de la velocidad que lleve la nave.
 ## Cambios respecto al Proyecto de partida
 Se han realizado diversos cambios respecto al proyecto de base, proporcionado por un compañero, y éstos se recogen en los siguientes apartados.
 ### Menú
