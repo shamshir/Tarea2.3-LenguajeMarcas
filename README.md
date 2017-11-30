@@ -2,7 +2,25 @@
 La presente tarea para la asignatura *Lenguaje de Marcas* consiste en la construcción de una página estática para el proyecto *Lunar Lander*, tomando como referencia el proyecto de otro compañero de clase.
 
 En este caso, el punto de partida es este [proyecto](https://github.com/shamshir/Lunar_Lander).
-## Visualización y funcionamiento
+## Visualización
+El presente repositorio cuenta con tres ramas distintas. La primera, *master*, es la versión principal y se encuentra correctamente indentada. La segunda rama, *minify* es idéntica a la rama *master*, salvo que todos los archivos HTML y CSS están comprimidos en una sola lía de código cada uno. Por último, la rama *noMenu* es igual que la rama *master* pero con el menú oculto, para facilitar la visualización de la página sin tener que añadir el atributo "display:none" en el inspector del navegador.
+
+[Visualizar la página con menú (rama *master*)](https://rawgit.com/shamshir/Tarea2.3-LenguajeMarcas/master/index.html)
+
+[Visualizar la página sin menú (rama *noMenu*)](https://rawgit.com/shamshir/Tarea2.3-LenguajeMarcas/noMenu/index.html)
+
+## Funcionamiento
+Para poder ver cómo cambian los indicadores de velocidad, fuel y altura tanto en la versión de escritorio como en la versión de móvil, seguir las siguientes instrucciones. Cabe destacar que, en la versión para móvil, la velocidad se expresará intercambiando tres imágenes distintas, por lo que actualmente (sin javascript) no es posible cambiar entre esas imágenes.
+
+En escritorio:
+* Velocidad > Modificar los grados de rotación de la imagen que se encuentra en el div con Id "aguja"
+* Fuel > Modificar la altura del div con Id "fondoFuel"
+* Altura > Modificar la distancia al "bottom" del div con Id "fondoAltura"
+
+En móvil:
+* Fuel > Modificar la anchura del div con Id "fondoFuel"
+* Altura > Modificar la distancia al "bottom" del div con Id "fondoAltura"
+
 ## Localización de Elementos
 ### Versión Escritorio
 ### Versión Móvil
