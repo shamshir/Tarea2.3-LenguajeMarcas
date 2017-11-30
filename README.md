@@ -24,20 +24,20 @@ En móvil:
 ## Localización de Elementos
 Tanto en la versión de escritorio como en la versión de móvil, la nave centrada encabeza la página y la luna ocupa la parte inferior de la pantalla, ocupando cada una un 20% de la altura disponible.
 
-Asímismo, los botones de play/pause y de restart, también ocupan el mismo lugar en ambas versiones: el botón de menú(play/pause) en la esquina superior derecha y el botón de restart debajo.
+Asimismo, los botones de play/pause y de restart, también ocupan el mismo lugar en ambas versiones: el botón de menú (play/pause) en la esquina superior derecha y el botón de restart debajo.
 
 Las opciones "About" e "Instrucciones" del menú, enlazan dos páginas de información en ambas versiones. Mientras que en la versión de escritorio la página carece de scroll ya que el texto cabe sin problema, en la versión para móvil se ha aplicado un scroll automático para poder ver correctamente todo el texto en dispositivos de menos resolución. Además, el botón de retorno al menú, que podemos encontrar al final de ambas páginas de texto, tiene un tamaño más grande en la versión de móvil, para facilitar su utilización. Cabe destacar que en ambas versiones está visible el botón de play/pause que, en la versión con javacript de este proyecto, nos devolverá al juego, en vez de al menú.
 
 ### Indicadores Escritorio
-Los indicadores de velocidad, fuel y altura en la versión de escritorio están contenidos en un div que ocupa la parte izquierda de la pantalla. Los indicadores de fuel y altura comparten espacio horizontal, ocupando cada uno la mitad del div. Encima de ambos, encontramos el indicador de velocidad, compuesto por dos imágenes distintas: la imágen del velocímetro y la imagen de la aguja, esta última ya preparada para poder rotarse.
+Los indicadores de velocidad, fuel y altura en la versión de escritorio están contenidos en un div que ocupa la parte izquierda de la pantalla. Los indicadores de fuel y altura comparten espacio horizontal, ocupando cada uno la mitad del div. Encima de ambos, encontramos el indicador de velocidad, compuesto por dos imágenes distintas: la imagen del velocímetro y la imagen de la aguja, esta última ya preparada para poder rotarse.
 
-Cabe destacar que los indicadores de fuel y altura están constituidos por un div que engloba la imagen correpondiente y otro div detrás que "llena" o "vacía" el indicador.
+Cabe destacar que los indicadores de fuel y altura están constituidos por un div que engloba la imagen correspondiente y otro div detrás que "llena" o "vacía" el indicador.
 ### Indicadores Móvil
-Los indicadores de velocidad, fuel y altura en la versión de móvil también están contenidos en un div que ocupa la parte izquierda de la pantalla. En este caso, no obstante, ningún indicador comparte espacio horizontal y están situados, de arriba a abajo: fuel, velocidad y altura. Mientras que los indicadores de altura y fuel funcionan y están construidos de igual forma que en la versión de escritorio (salvo que el indicador de fuel se encuentra horizontal y no vertical), el indicador de velocidad está compuesto por una imagen de fondo transparente que irá alternandose entre tres imágenes distintas, en función de la velocidad que lleve la nave.
+Los indicadores de velocidad, fuel y altura en la versión de móvil también están contenidos en un div que ocupa la parte izquierda de la pantalla. En este caso, no obstante, ningún indicador comparte espacio horizontal y están situados, de arriba a abajo: fuel, velocidad y altura. Mientras que los indicadores de altura y fuel funcionan y están construidos de igual forma que en la versión de escritorio (salvo que el indicador de fuel se encuentra horizontal y no vertical), el indicador de velocidad está compuesto por una imagen de fondo transparente que irá alternándose entre tres imágenes distintas, en función de la velocidad que lleve la nave.
 ## Cambios respecto al Proyecto de partida
 Se han realizado diversos cambios respecto al proyecto de base, proporcionado por un compañero, y éstos se recogen en los siguientes apartados.
 ### Menú
-El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y Dificultad (esta última dividida en fácil o difícil). Estas opciones se han especificado a posteriori ja que el proyecto no especifica cuáles deben ser.
+El menú que aparece en el centro de la pantalla también ha sido rediseñado, respetando la combinación de colores azul-naranja. En cuanto a las opciones que en él aparecen, éstas son "About", "Instrucciones" y Dificultad (esta última dividida en fácil o difícil). Estas opciones se han especificado a posteriori ya que el proyecto no especifica cuáles deben ser.
 
 Se ha desestimado la propuesta de introducir sonido en el juego, debido a la falta de realismo de dicha idea, ya que en el vacío del espacio no se propaga el sonido.
 
@@ -55,7 +55,7 @@ En el caso del móvil, mientras que el indicador de altura se mantiene igual, el
 #### Indicador de Velocidad
 El indicador de velocidad ha sido modificado ligeramente. En primer lugar, mediante Photoshop, se ha separado la aguja del resto del velocímetro y se le ha dado un color naranja. En segundo lugar, se han eliminado los números del velocímetro, debido a su tamaño y que tampoco son necesarios para que el indicador de velocidad funcione de forma ergonómica.
 
-En el caso del móvil, se han creado tres imágenes triangulares inspirandas en la proporcionada en el proyecto. Se trata de tres imágenes con fondo transparente que irán intercambiandose a medida que aumente/disminuya la velocidad.
+En el caso del móvil, se han creado tres imágenes triangulares inspiradas en la proporcionada en el proyecto. Se trata de tres imágenes con fondo transparente que irán intercambiándose a medida que aumente/disminuya la velocidad.
 #### Botones
 Los botones del juego (play/pause y menú) han sido creados de nuevo para garantizar una estética global en torno al color azul. Los símbolos dentro de los botones se han representado en naranja, debido a que es el color complementario del azul, resultado de mezclar rojo y amarillo.
 Se ha incrustado el símbolo de play y de pause en la imagen lisa que simula un planeta. De esta forma, para cambiar entre pausa y play, habrá que cambiar toda la imagen.
