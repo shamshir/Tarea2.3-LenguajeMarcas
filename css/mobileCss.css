@@ -111,6 +111,7 @@ body{
 	height:80%;
 	width:90%;
 	z-index:1;
+	display:none;
 	}
 #menu img{
 	width:100%;
