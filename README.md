@@ -22,8 +22,14 @@ En móvil:
 * Altura > Modificar la distancia al "bottom" del div con Id "fondoAltura"
 
 ## Localización de Elementos
-### Versión Escritorio
-### Versión Móvil
+Tanto en la versión de escritorio como en la versión de móvil, la nave centrada encabeza la página y la luna ocupa la parte inferior de la pantalla, ocupando cada una un 20% de la altura disponible.
+
+Asímismo, los botones de play/pause y de restart, también ocupan el mismo lugar en ambas versiones: el botón de menú(play/pause) en la esquina superior derecha y el botón de restart debajo.
+
+Las opciones "About" e "Instrucciones" del menú, enlazan dos páginas de información en ambas versiones. Mientras que en la versión de escritorio la página carece de scroll ya que el texto cabe sin problema, en la versión para móvil se ha aplicado un scroll automático para poder ver correctamente todo el texto en dispositivos de menos resolución. Además, el botón de retorno al menú, que podemos encontrar al final de ambas páginas de texto, tiene un tamaño más grande en la versión de móvil, para facilitar su utilización. Cabe destacar que en ambas versiones está visible el botón de play/pause que, en la versión con javacript de este proyecto, nos devolverá al juego, en vez de al menú.
+
+### Indicadores Escritorio
+### Indicadores Móvil
 ## Cambios respecto al Proyecto de partida
 Se han realizado diversos cambios respecto al proyecto de base, proporcionado por un compañero, y éstos se recogen en los siguientes apartados.
 ### Menú
